@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul id="navbar">
+            <li>
+                <a href="index.html">Search</a>
+                <a href="image-search.html">Images</a>
+                <a href="advanced-search.html">Advanced Search</a>
+            </li>
+        </ul>
+    </nav>
+    <p>Advanced Search</p>
+    <hr>
+
+    <p id="fpw">Find pages with...</p>
+
+
+
+    <div class="advance-form">
+        <form action="https://www.google.com/search">
+            <label for="as_q" class="explanation">all these words:</label>
+            <input class="advance-search" type="text" name="as_q"><br>
+            <label for="as_epq" class="explanation">this exact word or phrase:</label>
+            <input class="advance-search" type="text" name="as_epq"><br>
+            <label for="as_oq" class="explanation">any of these words:</label>
+            <input class="advance-search" type="text" name="as_oq"><br>
+            <label for="as_eq" class="explanation">none of these words:</label>
+            <input class="advance-search" type="text" name="as_eq"><br>
+
+            <!-- as_q = all these words as_epq = exact word or phrase as_oq = any of these words as_eq = none of these words -->
+            <button type="submit" class="advbutton">Advanced Search</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
